@@ -1,0 +1,30 @@
+div {
+  display: inline-block;
+  outline: 5px solid black;
+  padding: 20px;
+  margin: 20px;
+  background-color: #e2dcdc;
+  border: 5px solid red;
+}
+.second {
+  border-color: blue green;
+}
+.third {
+  border-style: dashed;
+  border-color: red green blue yellow;
+}
+span {
+  display: block;
+  margin-top: 30px;
+  background-color: #e1dfdf;
+  padding: 10px;
+}
+.one {
+  border-left: 5px solid red;
+}
+.two {
+  visibility: hidden;
+}
+.three {
+  border-left: 5px solid green;
+}
