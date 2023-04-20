@@ -1,0 +1,5 @@
+div {
+  font-size: 35px;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px red , 2px 1px 0 blue , 3px 1px 0 green;
+}

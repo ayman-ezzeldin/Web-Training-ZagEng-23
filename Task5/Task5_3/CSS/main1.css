@@ -1,0 +1,16 @@
+div {
+  padding: 15px;
+  text-align: center;
+  border: 4px solid #ff5722ed;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 28px;
+  background-color: #e5e2e2;
+  padding: inherit;
+  text-align: inherit;
+  border: inherit;
+}
+div:nth-child(2) {
+  border-color: #009688;
+}
