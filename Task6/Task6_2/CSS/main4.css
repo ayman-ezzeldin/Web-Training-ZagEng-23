@@ -1,0 +1,32 @@
+table {
+  margin: 50px auto;
+  width: 700px;
+  border-bottom: 1px solid #009688 ;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  text-align: center;
+}
+td {
+  border: 1px solid #fafafa;
+  padding: 10px;
+}
+img {
+  width: 40px;
+}
+span {
+  padding: 5px 10px;
+  background-color: #03a9f4;
+  color: white;
+  font-weight: 600;
+}
+span.delete {
+  background-color:#e91e63 ;
+}
+thead td {
+  background-color: #404040;
+  color: white;
+  font-weight: bold;
+}
+tbody td {
+  background-color: #eeeeee;
+}

@@ -1,0 +1,39 @@
+ul {
+  width: 400px;
+  margin: 40px auto;
+  list-style: none;
+}
+.l1 {
+  background-color: #eeeeee;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.l1 li {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: white;
+}
+.l2 {
+  background-color: #eeeeee;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.l2 li {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: white;
+}
+.l3 {
+  background-color: #eeeeee;
+  padding:10px;
+}
+.l3 ul {
+  margin: 2px 77px -3px -28px
+}
+.l3 li {
+  background-color: white;
+  margin: 13px 31px 10px 10px;
+  padding: 10px;
+  list-style-type: circle;
+}
+
