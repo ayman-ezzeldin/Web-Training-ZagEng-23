@@ -1,0 +1,60 @@
+:root {
+  --bgcolor:#ddd;
+  --p10:10px ;
+}
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  width: 800px;
+  margin: auto;
+}
+.header {
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo {
+  text-align: center;
+width: 10%;
+padding: var(--p10);
+background-color: var(--bgcolor);
+}
+.links {
+  padding: var(--p10);
+  background-color: var(--bgcolor);
+  width: 84%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+li {
+  margin-left: var(--p10);
+}
+.main-area {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+  margin-bottom: var(--p10);
+}
+.content {
+  background-color: var(--bgcolor);
+  width: 65%;
+  align-self: stretch;
+}
+.sidebar {
+  background-color: var(--bgcolor);
+  width: 33%;
+  height: 300px;
+}
+.footer {
+  background-color: var(--bgcolor);
+  padding: var(--p10);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

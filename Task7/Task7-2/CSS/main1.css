@@ -1,0 +1,37 @@
+div {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 40px auto;
+}
+.p {
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.b {
+  position: absolute;
+  z-index: 4;
+  background-color: #03a9f4;
+  right: 56px;
+}
+.o {
+  left: 56px;
+  position: absolute;
+  z-index: 5;
+  background-color: #ff5722;
+
+}
+.e {
+  position: absolute;
+  z-index: 6;
+  display: flex;
+  background-color: #eeeeee;  
+  color: #ff5722;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}

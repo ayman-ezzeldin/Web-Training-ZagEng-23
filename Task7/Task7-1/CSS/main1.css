@@ -1,0 +1,20 @@
+div {
+  margin: 40px auto;
+  background-color: #f2f2f4;
+  text-align: center;
+  width: 400px;
+  padding: 20px;
+  overflow: hidden;
+  transition-duration: 500ms;
+}
+.ch {
+  background-color:#dededc ;
+  width: 300px;
+  transition-delay: 500ms;
+}
+.p:hover {
+  margin-top: 20px;
+}
+.p:hover .ch {
+  margin-top: 20px;
+}

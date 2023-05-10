@@ -1,0 +1,19 @@
+div {
+  width: 400px;
+  margin: 40px auto;
+  font-size: 20px !important ; 
+  background-color: #eeeeee !important;
+  color: black !important;
+  border: none !important;
+  font-weight: bold;
+  text-align: center;
+  text-indent: -9999px;
+  line-height: 0;
+}
+
+div::after {
+  content: "Ayman";
+  text-indent: 0;
+  display: block;
+  line-height: initial; 
+}
