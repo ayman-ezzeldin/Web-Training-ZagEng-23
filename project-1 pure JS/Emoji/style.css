@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #009888;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  position: relative;
+  background-color: white;
+  width: 400px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .3) ;
+}
+.face{
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  display: flex;
+  width: 50px;   /*for */
+  overflow: hidden;
+}
+.fa-regular {
+  margin: 1px;
+}
+.rating {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20%;
+}
+.fa-star {
+  color: lightgray;
+  cursor: pointer;
+}
+.active {
+  color: gold;
+}
